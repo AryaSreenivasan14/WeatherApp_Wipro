@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rkd-21-oru">
+                                <rect key="frame" x="83" y="324" width="248" height="248"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="kwR-7J-mUU">
+                                        <rect key="frame" x="0.0" y="0.0" width="248" height="248"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="kwR-7J-mUU" firstAttribute="top" secondItem="Rkd-21-oru" secondAttribute="top" id="6zn-52-DHP"/>
+                                    <constraint firstAttribute="bottom" secondItem="kwR-7J-mUU" secondAttribute="bottom" id="81i-dS-VS1"/>
+                                    <constraint firstItem="kwR-7J-mUU" firstAttribute="leading" secondItem="Rkd-21-oru" secondAttribute="leading" id="CeX-ou-0SR"/>
+                                    <constraint firstAttribute="width" secondItem="Rkd-21-oru" secondAttribute="height" multiplier="1:1" id="cx0-uv-a82"/>
+                                    <constraint firstAttribute="trailing" secondItem="kwR-7J-mUU" secondAttribute="trailing" id="lNi-oD-Tfj"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Rkd-21-oru" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="8h6-I7-WVz"/>
+                            <constraint firstItem="Rkd-21-oru" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.6" id="L7C-ta-qxQ"/>
+                            <constraint firstItem="Rkd-21-oru" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="PIz-Fd-qhS"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logo" width="300" height="300"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
